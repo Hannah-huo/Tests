@@ -1,3 +1,10 @@
+/*
+* 体能大比拼题目(8.8/Tues)Round1
+*
+* 题目：将一个正整数分解质因数。例如：输入90,打印出90=2335。
+* */
+
+
 var result = [];
 
 var factor = function f(n) {
@@ -14,7 +21,9 @@ var factor = function f(n) {
     }
 
 
-    if (v == 1) { return; }
+    if (v == 1) {
+        return;
+    }
     result.push(v);
     f(n / v);
 }
