@@ -5,7 +5,6 @@ function XXX(str,val){}
 
 function linkedList(str,val){
     let result = str.split('->').filter(elem => elem !== val + '');
-
     return result.join('->');
 }
 
