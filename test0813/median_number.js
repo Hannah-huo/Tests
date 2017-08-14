@@ -12,5 +12,5 @@ function medianNumber(arr){
         return (arr[(n-1)/2]);
     }
 }
-let arr = [1,3,4,5];
+let arr = [1,4,5,2];
 console.log(medianNumber(arr));
