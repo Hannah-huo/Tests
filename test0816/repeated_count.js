@@ -5,8 +5,7 @@
 * */
 function getDuplicates(arr) {
     let result = [];
-    arr.concat()
-        .sort()
+    arr.sort()
         .sort(function(a,b){
             if(a === b && result.indexOf(a) === -1){
                 result.push(a);
