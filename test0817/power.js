@@ -12,4 +12,4 @@ function squareNumber(arr){
 }
 
 console.log(squareNumber(arr));
-console.log(arr);
+//console.log(arr);
