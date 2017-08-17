@@ -3,7 +3,7 @@
 例如：arr = [5, 3, 7, 1]; 输出：[25, 9, 49, 1]
 要求：不要使用for，while循环
 * */
-
+let arr = [5, 3, 7, 1];
 function squareNumber(arr){
     return arr.map(function (item) {
         return item * item;
@@ -11,4 +11,5 @@ function squareNumber(arr){
     })
 }
 
-console.log(squareNumber([5, 3, 7, 1]));
+console.log(squareNumber(arr));
+console.log(arr);
